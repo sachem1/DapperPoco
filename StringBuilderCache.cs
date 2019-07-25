@@ -1,16 +1,14 @@
-﻿// Copyright (c) Mondol. All rights reserved.
+﻿
 // 
-// Author:  frank
-// Email:   frank@mondol.info
+
+
 // Created: 2017-04-16
 // 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Mondol
+using System;
+using System.Text;
+
+namespace Jiesen.DapperPoco
 {
     public static class StringBuilderCache
     {

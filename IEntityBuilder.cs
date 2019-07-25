@@ -1,18 +1,12 @@
-// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
-// 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore.Internal;
-using Mondol.DapperPoco.Metadata;
+using Jiesen.DapperPoco.Metadata;
 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     public interface IEntityBuilder
     {

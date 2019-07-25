@@ -1,21 +1,21 @@
-﻿// Copyright (c) Mondol. All rights reserved.
+﻿
 // 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
+
+
+
 // 
 using System.Data;
 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     /// <summary>
     ///     Transaction object helps maintain transaction depth counts
     /// </summary>
     internal class Transaction : ITransaction
     {
-        private DbContext _dbCtx;
+        private Jiesen.DapperPoco.DbContext _dbCtx;
 
-        public Transaction(DbContext dbCtx, IsolationLevel isolation = IsolationLevel.ReadCommitted)
+        public Transaction(Jiesen.DapperPoco.DbContext dbCtx, IsolationLevel isolation = IsolationLevel.ReadCommitted)
         {
             _dbCtx = dbCtx;
             dbCtx.BeginTransaction(isolation);

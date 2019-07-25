@@ -1,14 +1,14 @@
-﻿// Copyright (c) Mondol. All rights reserved.
+﻿
 // 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
+
+
+
 // 
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     public class SqlBuilder
     {

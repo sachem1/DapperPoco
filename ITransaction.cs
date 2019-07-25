@@ -1,12 +1,6 @@
-﻿// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
-// 
-using System;
+﻿using System;
 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     /// <summary>
     ///     Represents the contract for the transaction.

@@ -1,8 +1,8 @@
-﻿// Copyright (c) Mondol. All rights reserved.
+﻿
 // 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
+
+
+
 // 
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Mondol.DapperPoco")]
+[assembly: AssemblyProduct("Jiesen.DapperPoco")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -24,4 +24,4 @@ using System.Runtime.InteropServices;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("a5c78ab6-81fd-4d06-9296-f98ce2ad5a1e")]
 
-[assembly: InternalsVisibleTo("Mondol.DapperPoco.Test")]
+[assembly: InternalsVisibleTo("Jiesen.DapperPoco.Test")]

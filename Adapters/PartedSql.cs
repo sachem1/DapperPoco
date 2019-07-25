@@ -1,10 +1,10 @@
-﻿// Copyright (c) Mondol. All rights reserved.
+﻿
 // 
-// Author:  frank
-// Email:   frank@mondol.info
+
+
 // Created: 2017-02-17
 // 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     /// <summary>
     /// 分解后的SQL信息

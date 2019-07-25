@@ -1,13 +1,13 @@
-// Copyright (c) Mondol. All rights reserved.
+
 // 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
+
+
+
 // 
 using System.Data;
 using System.Data.Common;
 
-namespace Mondol.DapperPoco.Adapters
+namespace Jiesen.DapperPoco.Adapters
 {
     public interface ISqlAdapter
     {

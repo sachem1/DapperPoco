@@ -1,13 +1,13 @@
-﻿// Copyright (c) Mondol. All rights reserved.
+﻿
 // 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
+
+
+
 // 
 using System;
 using System.Text.RegularExpressions;
 
-namespace Mondol.DapperPoco.Utils
+namespace Jiesen.DapperPoco.Utils
 {
     public class PagingUtil
     {

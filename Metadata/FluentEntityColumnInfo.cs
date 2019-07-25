@@ -1,12 +1,12 @@
-﻿// Copyright (c) Mondol. All rights reserved.
+﻿
 // 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
+
+
+
 // 
 using System.Reflection;
 
-namespace Mondol.DapperPoco.Metadata
+namespace Jiesen.DapperPoco.Metadata
 {
     public class FluentEntityColumnInfo
     {

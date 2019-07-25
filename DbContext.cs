@@ -1,22 +1,14 @@
-﻿// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
-// 
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using Dapper;
-using Mondol.DapperPoco.Internal;
-using Mondol.DapperPoco.Utils;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Reflection;
-using Mondol.DapperPoco.Metadata;
+using Dapper;
+using Jiesen.DapperPoco.Internal;
+using Jiesen.DapperPoco.Utils;
 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     public abstract partial class DbContext : IDisposable, IInfrastructure<IDbContextServices>
     {
@@ -295,7 +287,7 @@ namespace Mondol.DapperPoco
 
         IDbContextServices IInfrastructure<IDbContextServices>.Instance => DbContextServices;
 
-        protected internal virtual void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected virtual void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
         }
 

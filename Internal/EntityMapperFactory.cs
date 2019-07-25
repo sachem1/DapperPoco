@@ -1,12 +1,12 @@
-// Copyright (c) Mondol. All rights reserved.
+
 // 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
+
+
+
 // 
 using System;
 
-namespace Mondol.DapperPoco.Internal
+namespace Jiesen.DapperPoco.Internal
 {
     public class EntityMapperFactory
     {
@@ -23,7 +23,7 @@ namespace Mondol.DapperPoco.Internal
 
         public static EntityMapperFactory Instance { get; }
 
-        public IEntityMapper GetEntityMapper(DbContext dbCtx)
+        public IEntityMapper GetEntityMapper(Jiesen.DapperPoco.DbContext dbCtx)
         {
             var key = dbCtx.GetType().TypeHandle;
             return _entityMappers.GetOrAdd(key, () =>

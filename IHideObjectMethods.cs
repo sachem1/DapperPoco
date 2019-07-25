@@ -1,13 +1,7 @@
-﻿// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
-// 
-using System;
+﻿using System;
 using System.ComponentModel;
 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     /// <summary>
     ///     An interface used to hide the 4 System.Object instance methods from the API in Visual Studio intellisense.

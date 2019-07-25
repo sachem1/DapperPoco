@@ -1,14 +1,8 @@
-// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
-// 
 using System;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace Mondol.DapperPoco.Internal
+namespace Jiesen.DapperPoco.Internal
 {
     internal class ConcurrentCache<TKey, TValue>
     {
